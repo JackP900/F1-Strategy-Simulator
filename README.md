@@ -21,8 +21,7 @@ F1_strategy/
 ├── app.py  
 ├── analysis.py  
 ├── data_loader.py  
-├── Tyre_Degradation_Results.csv  
-└── cache/  
+├── Tyre_Degradation_Results.csv   
 
 app.py  
 Manages Streamlit user interface.  
