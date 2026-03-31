@@ -1,0 +1,1 @@
+#calculates the fastest strategy to use
