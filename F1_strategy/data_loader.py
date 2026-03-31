@@ -4,7 +4,7 @@ import pandas as pd
 
 
 #Makes data load faster after first run
-fastf1.Cache.enable_cache("cache")
+fastf1.Cache.enable_cache("F1_startegy/cache")
 
 #loads the race
 def load_race(year, grand_prix, session):
