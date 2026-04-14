@@ -52,6 +52,7 @@ bash
 pip install streamlit fastf1 pandas numpy scipy matplotlib
 🗂️ How the Project is Organized
 
+'''
 F1-Strategy-Simulator/
 │
 ├── F1_strategy/
@@ -65,6 +66,7 @@ F1-Strategy-Simulator/
 🔬 The Science Behind It
 Modelling Tyre Wear
 We analyze real lap times from the data and fit them to a quadratic equation:
+'''
 
 lap_time = a × (tyre_age)² + b × tyre_age + c
 
