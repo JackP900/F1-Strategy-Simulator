@@ -90,7 +90,7 @@ elif st.session_state.stage == 3:
     col_back, col_next = st.columns([1, 5])
     with col_back:
         if st.button("Back"):
-            st.session_state = 2
+            st.session_state.stage = 2
             st.rerun()
     with col_next:
         if st.button("Run Analysis", type="primary"):
