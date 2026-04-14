@@ -99,7 +99,7 @@ Tyre degradation is modelled as a nice clean quadratic curve, but actual tyre we
 No modeling of safety cars, weather changes, or other race interruptions — this is a pure strategy sim
 To get a good fit, you need at least 5 laps on each tyre compound — otherwise it skips the fitting for that tyre
 
-🙏 Thanks to…
+🙏 Thanks to...
 FastF1 — for giving us easy access to official F1 data
 Streamlit — for making it super simple to build cool interactive apps in Python
 
