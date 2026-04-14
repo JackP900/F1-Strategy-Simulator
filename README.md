@@ -15,7 +15,6 @@ Python 3.9 or newer
 How to install
 bash
 
-Copy code
 # First, clone this repository
 git clone https://github.com/your-username/F1-Strategy-Simulator.git
 cd F1-Strategy-Simulator
@@ -98,11 +97,11 @@ The fuel effect is linked to tyre age rather than the total laps run, which simp
 Tyre degradation is modelled as a nice clean quadratic curve, but actual tyre wear is way more complex and influenced by lots of stuff like weather and driving style
 No modeling of safety cars, weather changes, or other race interruptions — this is a pure strategy sim
 To get a good fit, you need at least 5 laps on each tyre compound — otherwise it skips the fitting for that tyre
-
+```
 🙏 Thanks to...
 FastF1 — for giving us easy access to official F1 data
 Streamlit — for making it super simple to build cool interactive apps in Python
-
+```
 If you want to chat about strategy or have questions, just ask! Enjoy racing smarter. 🏁
 
 Would you like me to help with anything else—like adding example screenshots or improving some code comments?
