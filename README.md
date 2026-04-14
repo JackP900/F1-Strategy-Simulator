@@ -66,7 +66,6 @@ F1-Strategy-Simulator/
 Modelling Tyre Wear
 We analyze real lap times from the data and fit them to a quadratic equation:
 
-
 lap_time = a × (tyre_age)² + b × tyre_age + c
 
 c is your baseline lap time on fresh tyres
