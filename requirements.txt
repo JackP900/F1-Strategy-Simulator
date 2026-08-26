@@ -1,6 +1,6 @@
-streamlit
-pandas
-matplotlib
-fastf1
-numpy
-scipy
+streamlit==1.62.0
+pandas==2.3.3
+matplotlib==3.10.9
+fastf1==3.8.3
+numpy==2.4.4
+scipy==1.17.1
