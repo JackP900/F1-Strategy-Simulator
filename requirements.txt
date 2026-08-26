@@ -4,4 +4,3 @@ matplotlib
 fastf1
 numpy
 scipy
-pathlib

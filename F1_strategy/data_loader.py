@@ -1,10 +1,14 @@
 #loads a Formula 1 race
 import fastf1
 import pandas as pd
+from pathlib import Path
 
 
 #Makes data load faster after first run
-fastf1.Cache.enable_cache("F1_strategy/cache")
+#(cache lives next to this file and is created if missing, so it works locally and on Streamlit Cloud)
+CACHE_DIR = Path(__file__).resolve().parent / "cache"
+CACHE_DIR.mkdir(parents=True, exist_ok=True)
+fastf1.Cache.enable_cache(str(CACHE_DIR))
 
 #loads the race
 def load_race(year, grand_prix, session):
