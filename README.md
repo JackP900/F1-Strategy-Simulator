@@ -1,6 +1,9 @@
 🏎️ F1 Strategy Simulator
 Ever wondered how F1 teams come up with the perfect race strategy? This app gives you a chance to try it yourself! Built with Python and Streamlit, it uses real race data (thanks to FastF1) to model tyre wear and fuel effects, then runs hundreds of simulated strategies to find which one’s fastest.
 
+Demo Link
+[Live Demo](https://f1-strategy-simulator-b3xjxt3gqhqnafvktfsawv.streamlit.app/)
+
 📸 What’s Inside?
 You'll go through a simple 4-step wizard to create and explore race strategies:
 
